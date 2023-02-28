@@ -1,0 +1,133 @@
+html {
+  width: 100;
+  height:100;
+}
+
+body {
+  min-width: 100vh;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 59%);
+  background-color: black;
+  display: grid;
+  grid-template: repeat(10, 10%)/repeat(5, 20%);
+}
+header {
+  grid-area: 1/1/2/6;
+  background-color: black;
+  z-index: 2;
+}
+
+main {
+  background-color: hsl(185, 75%, 39%);
+  grid-area: 2/1/10/6;
+  display: grid;
+  place-content: center;
+}
+
+footer {
+  grid-area: 10/1/10/6;
+  background-color: black;
+  z-index: 2;
+}
+#bg-top {
+  position: absolute;
+  right: 800px;
+  bottom: 250px;
+}
+
+#bg-bot {
+  position: absolute;
+  left: 800px;
+  top: 250px;
+}
+
+.main-container {
+  grid-area: 4/2/span5/span2;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 45vh;
+  margin: 80px 0 80px 0;
+  z-index: 2;
+}
+
+.background { 
+  background-image: url("profile-card-component-main/images/bg-pattern-card.svg");
+  padding: 60px 0px 0px 0px;
+  border-radius: 20px 20px 0 0;
+  margin: 0px;
+}
+
+#bg-card {
+  width: 34%;
+}
+
+#profile {
+  position: relative;
+  top: 50px;
+  border-radius: 50px;
+  border: white 5px solid;
+  
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px 0px 0px;
+  padding: 0px;
+}
+
+h3 {
+  color:hsl(229, 23%, 23%);
+  padding-right: 10px;
+}
+
+#p-1 {
+  font-size: 1.2rem;
+  padding-top: 2px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  align-self: center;
+}
+
+.stats {
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: hsl(229, 23%, 23%);
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.2rem;
+}
+
+.p-2 {
+  padding-top: 5px;
+  font-size: 0.8rem;
+  color: hsl(0, 0%, 59%);
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: white; 
+}
+
