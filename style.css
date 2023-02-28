@@ -54,23 +54,19 @@ footer {
   z-index: 2;
 }
 
-.background { 
-  background-image: url("https://raw.githubusercontent.com/generieyyc/FeM--Profile-Card-Component/main/bg-pattern-card.svg");
-  padding: 60px 0px 0px 0px;
-  border-radius: 20px 20px 0 0;
-  margin: 0px;
-}
-
 #bg-card {
-  width: 34%;
+  height: 70%;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
 }
 
 #profile {
   position: relative;
-  top: 50px;
+  bottom: 20%;
+  left: 34%;
   border-radius: 50px;
   border: white 5px solid;
-  
+  z-index: 1;
 }
 
 .flex-item {
