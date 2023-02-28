@@ -55,7 +55,7 @@ footer {
 }
 
 .background { 
-  background-image: url("bg-pattern-card.svg");
+  background-image: url("/bg-pattern-card.svg");
   padding: 60px 0px 0px 0px;
   border-radius: 20px 20px 0 0;
   margin: 0px;
